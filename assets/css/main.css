@@ -95,64 +95,60 @@ section, summary, time, mark, audio, video
 	color: white;
 	display: inline-block;
 	padding-right: 30px;
-	top: 10px;
+	top: -20px;
 	left: 10px;
 
 }
 .imgM
 {
 	float: left;
-width: 25px;
-position:relative; /*or absolute*/
-left:-5px;
-top: -1px;
+	width: 25px;
+	position:relative; /*or absolute*/
+	left:-5px;
+	top: -1px;
 
 }
 .imgN
 {
 	float: right;
-width: 35px;
-position:relative; /*or absolute*/
-left: 5px;
-top: -3px;
+	width: 35px;
+	position:relative; /*or absolute*/
+	left: 5px;
+	top: -3px;
 
 }
 
 .imgO img
 {
 	float: left;
-width: 35px;
-position:relative; /*or absolute*/
-left: 1005px;
-top: -72px;
-padding-right: 100px;
+	width: 35px;
+	position:relative; /*or absolute*/
+	left: 1005px;
+	top: -72px;
+	padding-right: 100px;
 
 }
 
-.inp
-{
-	float: right;
-width: 35px;
-position:relative; /*or absolute*/
-right : 365px;
-bottom: 68px;
 
+.imgO input {
+	width: 35px;
+	position:relative;
+	right : -905px;
+	bottom: 67px;
 
-}
-.inp input {
- border: 0;
- width: 90px;
- font-size: 20px;
- height: 30px;
- text-align: center;
- padding: 0px;
- background: transparent;
+	border: 0;
+	width: 90px;
+	font-size: 20px;
+	height: 30px;
+	text-align: center;
+	padding: 0px;
+	background: transparent;
 	color: #ffffff;
 }
 
-inp input.shake {
- animation-name: shaker;
- animation-duration: 200ms;
- animation-timing-function: ease-in-out;
- animation-delay: 0s;
+.imgO input.shake {
+	animation-name: shaker;
+	animation-duration: 200ms;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
 }
