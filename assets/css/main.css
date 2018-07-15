@@ -134,16 +134,15 @@ padding-right: 100px;
 	float: right;
 width: 35px;
 position:relative; /*or absolute*/
-right : 530px;
+right : 365px;
 bottom: 68px;
 
 
 }
 .inp input {
  border: 0;
- width: 300%;
+ width: 90px;
  font-size: 20px;
- line-height: 2px;
  height: 30px;
  text-align: center;
  padding: 0px;
@@ -156,12 +155,4 @@ inp input.shake {
  animation-duration: 200ms;
  animation-timing-function: ease-in-out;
  animation-delay: 0s;
-}
-
-.inp input:focus {
- outline: 0;
-	color: #ffffff;
-}
-.namer input::placeholder {
- color: #ffffff;
 }
