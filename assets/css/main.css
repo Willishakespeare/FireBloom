@@ -31,6 +31,10 @@ html
 	margin: 0;
 	background: #1d2128;
 }
+.wrapper
+{
+
+}
 .logo
 {
 
@@ -50,9 +54,8 @@ html
 }
 .nav
 {
+	width: 600px;
 	position: relative;
-	align-items: flex-start;
-	align-content: space-around;
 	left: 425px;
 	bottom: 42px;
 
@@ -76,10 +79,10 @@ html
 
 .form
 {
-	position: relative;
-	align-items: flex-start;
-	align-content: space-around;
-	left: 1065px;
+position: relative;
+width: 351px;
+	align-content: space-between;
+	left: 1060px;
 	bottom: 78px;
 
 
